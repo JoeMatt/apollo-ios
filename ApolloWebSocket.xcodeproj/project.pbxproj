@@ -71,7 +71,6 @@
 		9F28B6D420720F2F00144A00 /* Apollo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Apollo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F28B6D820720FD100144A00 /* ApolloTestSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ApolloTestSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F28B6DA2072101200144A00 /* StarWarsAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StarWarsAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FCEC848206E442000FB34B6 /* Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Framework.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,7 +154,6 @@
 		9F0733C7206E191800C2AC65 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				9FCEC848206E442000FB34B6 /* Framework.xcconfig */,
 			);
 			name = Configuration;
 			sourceTree = "<group>";
@@ -446,7 +444,6 @@
 		};
 		720160E0206AB3D30052B2EE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FCEC848206E442000FB34B6 /* Framework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
@@ -470,7 +467,6 @@
 		};
 		720160E1206AB3D30052B2EE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FCEC848206E442000FB34B6 /* Framework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
@@ -494,7 +490,6 @@
 		};
 		720160E3206AB3D30052B2EE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FCEC848206E442000FB34B6 /* Framework.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -512,7 +507,6 @@
 		};
 		720160E4206AB3D30052B2EE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FCEC848206E442000FB34B6 /* Framework.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (

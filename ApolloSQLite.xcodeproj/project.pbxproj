@@ -105,7 +105,6 @@
 		9F65B12A1EC1B4080090B25F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F65B13C1EC1B59E0090B25F /* TestCacheProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCacheProvider.swift; sourceTree = "<group>"; };
 		9F98C8351EC0844E00FFD919 /* CachePersistenceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachePersistenceTests.swift; sourceTree = "<group>"; };
-		9FA4FD6A1EA7B35200635987 /* Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Framework.xcconfig; sourceTree = SOURCE_ROOT; };
 		9FA86C5A1EA7B6D40073E1ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FA86C5C1EA7B6EE0073E1ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FDE0D992074C78D003C2223 /* ApolloTestSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ApolloTestSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -219,7 +218,6 @@
 		9FA86C571EA7B6320073E1ED /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				9FA4FD6A1EA7B35200635987 /* Framework.xcconfig */,
 			);
 			name = Configuration;
 			sourceTree = "<group>";
@@ -486,7 +484,6 @@
 /* Begin XCBuildConfiguration section */
 		5438069E1EA56C2200F55B72 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FA4FD6A1EA7B35200635987 /* Framework.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Tests/ApolloSQLiteTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -497,7 +494,6 @@
 		};
 		5438069F1EA56C2200F55B72 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FA4FD6A1EA7B35200635987 /* Framework.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Tests/ApolloSQLiteTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -621,7 +617,6 @@
 		};
 		54DDB0C71EA1523E0009DD99 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FA4FD6A1EA7B35200635987 /* Framework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
@@ -640,7 +635,6 @@
 		};
 		54DDB0C81EA1523E0009DD99 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FA4FD6A1EA7B35200635987 /* Framework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
@@ -658,7 +652,6 @@
 		};
 		9F65B12C1EC1B4080090B25F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FA4FD6A1EA7B35200635987 /* Framework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
@@ -677,7 +670,6 @@
 		};
 		9F65B12D1EC1B4080090B25F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FA4FD6A1EA7B35200635987 /* Framework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
