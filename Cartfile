@@ -1,2 +1,3 @@
-github "stephencelis/SQLite.swift" ~> 0.11.5
+github "JoeMatt/SQLite.swift" "feature/Swift4.2"
+# github "stephencelis/SQLite.swift" ~> 0.11.5
 github "daltoniam/Starscream" ~> 3.0.5
